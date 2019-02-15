@@ -35,8 +35,7 @@ require 'register.php';
 					<td><?php echo $email_item; ?></td>
 				</tr>
 			<?php endforeach; ?>
-		</table>		
-		
+		</table>
 	</div>	
 </body>
 </html>
