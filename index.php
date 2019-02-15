@@ -23,21 +23,19 @@ require 'register.php';
 			</div>
 		</div>
 		
-		<a href="draw.php" class="btn btn-success">REALIZAR SORTEIO</a>
-		<hr>
+		<a href="draw.php" class="btn btn-success">REALIZAR SORTEIO</a><hr>
 		
-			<table class="table">
+		<table class="table">
+			<tr>
+				<th>Emails já cadastrados</th>
+			</tr>
+			<!-- listing registered emails -->
+			<?php foreach ($emails as $email_item) : ?>
 				<tr>
-					<th>Emails já cadastrados</th>
+					<td><?php echo $email_item; ?></td>
 				</tr>
-				
-				<?php foreach ($emails as $email_item) : ?>
-					<tr>
-						<td><?php echo $email_item; ?></td>
-					</tr>
-				<?php endforeach; ?>
-
-			</table>		
+			<?php endforeach; ?>
+		</table>		
 		
 	</div>	
 </body>
