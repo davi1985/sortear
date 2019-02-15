@@ -24,7 +24,7 @@ require 'register.php';
 		</div>
 		<br>
 		<div class="col-sm-6 col-sm-offset-3">
-			<a href="sort.php" class="btn btn-success">Realizar Sorteio!</a>
+			<a href="draw.php" class="btn btn-success">Realizar Sorteio!</a>
 		</div>
 		<hr>
 		<div class="col-sm-8 col-sm-offset-2">
