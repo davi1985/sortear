@@ -9,3 +9,7 @@ $drawEmail = rand(0, $totalEmailsRegister);
 
 echo "<h1>O e-mail sorteado foi:</h1>";
 echo "<h2>{$emails[$drawEmail]}</h2>";
+?>
+
+<p>Realizar novo sorteio?</p>
+<a href="index.php">Voltar</a>

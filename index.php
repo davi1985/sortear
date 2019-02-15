@@ -22,12 +22,10 @@ require 'register.php';
 				</form>
 			</div>
 		</div>
-		<br>
-		<div class="col-sm-6 col-sm-offset-3">
-			<a href="draw.php" class="btn btn-success">Realizar Sorteio!</a>
-		</div>
+		
+		<a href="draw.php" class="btn btn-success">REALIZAR SORTEIO</a>
 		<hr>
-		<div class="col-sm-8 col-sm-offset-2">
+		
 			<table class="table">
 				<tr>
 					<th>Emails já cadastrados</th>
@@ -40,7 +38,7 @@ require 'register.php';
 				<?php endforeach; ?>
 
 			</table>		
-		</div>	
+		
 	</div>	
 </body>
 </html>
