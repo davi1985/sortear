@@ -2,6 +2,7 @@
 <?php session_start(); ?>
 <?php require 'register.php'; ?>
 
+
 <div class="row">
 	<div class="col-sm-6 col-sm-offset-3">
 		<h2>Cadastre o seu e-mail</h2>
@@ -15,6 +16,12 @@
 </div>
 
 <a href="draw.php" class="btn btn-success">REALIZAR SORTEIO</a><hr>
+
+<div>
+	<?php 
+		
+	 ?>
+</div>
 
 <table class="table">
 	<tr>
